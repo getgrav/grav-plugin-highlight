@@ -34,6 +34,7 @@ form:
       options:
         default: Default
         monokai: Monakai
+        learn: Grav Learn
         railscasts: Railscasts
         arta: Arta
         ascetic: Ascetic
