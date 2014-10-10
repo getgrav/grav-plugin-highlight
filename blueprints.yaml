@@ -1,5 +1,5 @@
 name: Highlight
-version: 1.0.1
+version: 1.0.2
 description: "This plugin provides code highlighting functionality via the [Highlight.js](https://highlightjs.org/) jQuery plugin."
 icon: code
 author:
@@ -12,9 +12,8 @@ keywords: highlight, plugin, code
 bugs: https://github.com/getgrav/grav-plugin-highlight/issues
 license: MIT
 
-validation: strict
-
 form:
+  validation: strict
   fields:
     enabled:
       type: toggle
