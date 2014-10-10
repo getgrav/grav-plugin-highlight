@@ -12,9 +12,8 @@ keywords: highlight, plugin, code
 bugs: https://github.com/getgrav/grav-plugin-highlight/issues
 license: MIT
 
-validation: strict
-
 form:
+  validation: strict
   fields:
     enabled:
       type: toggle
