@@ -87,6 +87,7 @@ You can also disable highlighting for a particular page if causes issues:
 
 Valid theme options include:
 
+|                        |                       |                         |
 | :--------------------- | :-------------------- | ----------------------- |
 | arta                   | ascetic               | atelier-dune.dark       |
 | atelier-dune.light     | atelier-forest.dark   | atelier-forest.light    |
