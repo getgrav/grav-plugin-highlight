@@ -87,33 +87,25 @@ You can also disable highlighting for a particular page if causes issues:
 
 Valid theme options include:
 
-|                         |                        |
-| :---------------------- | :--------------------- |
-| arta                    | ascetic                |
-| atelier-dune.dark       | atelier-dune.light     |
-| atelier-forest.dark     | atelier-forest.light   |
-| atelier-heath.dark      | atelier-heath.light    |
-| atelier-lakeside.dark   | atelier-lakeside.light |
-| atelier-seaside.dark    | atelier-seaside.light  |
-| brown_paper             | codepen-embed          |
-| color-brewer            | dark                   |
-| default                 | docco                  |
-| far                     | foundation             |
-| github                  | googlecode             |
-| hybrid                  | idea                   |
-| ir_black                | kimbie.dark            |
-| kimbie.light            | learn                  |
-| magula                  | mono-blue              |
-| monokai_sublime         | monokai                |
-| obsidian                | paraiso.dark           |
-| paraiso.light           | pojoaque               |
-| railscasts              | rainbow                |
-| school_book             | solarized_dark         |
-| solarized_light         | sunburst               |
-| tomorrow-night-blue     | tomorrow-night-bright  |
-| tomorrow-night-eighties | tomorrow-night         |
-| tomorrow                | vs                     |
-| xcode                   | zenburn                |
+|                        |                       |                         |
+| :--------------------- | :-------------------- | ----------------------- |
+| arta                   | ascetic               | atelier-dune.dark       |
+| atelier-dune.light     | atelier-forest.dark   | atelier-forest.light    |
+| atelier-heath.dark     | atelier-heath.light   | atelier-lakeside.dark   |
+| atelier-lakeside.light | atelier-seaside.dark  | atelier-seaside.light   |
+| brown_paper            | codepen-embed         | color-brewer            |
+| dark                   | default               | docco                   |
+| far                    | foundation            | github                  |
+| googlecode             | hybrid                | idea                    |
+| ir_black               | kimbie.dark           | kimbie.light            |
+| learn                  | magula                | mono-blue               |
+| monokai_sublime        | monokai               | obsidian                |
+| paraiso.dark           | paraiso.light         | pojoaque                |
+| railscasts             | rainbow               | school_book             |
+| solarized_dark         | solarized_light       | sunburst                |
+| tomorrow-night-blue    | tomorrow-night-bright | tomorrow-night-eighties |
+| tomorrow-night         | tomorrow              | vs                      |
+| xcode                  | zenburn               |                         |
 
 > Note: If you want to see this plugin in action, have a look at [Grav Learn Site](http://learn.getgrav.org)
 
