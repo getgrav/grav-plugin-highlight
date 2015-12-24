@@ -37,7 +37,7 @@ eg:
     ---
     title: Sample Code With Custom Theme
     highlight:
-        theme: monakai
+        theme: monokai
     ---
 
     ```
