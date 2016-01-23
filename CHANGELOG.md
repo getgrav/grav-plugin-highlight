@@ -1,5 +1,5 @@
 # v1.3.0
-## XX/XX/2016
+## 01/22/2016
 
 1. [](#new)
     * Updated `highlight.js` to version 9.1.0
