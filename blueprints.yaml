@@ -37,6 +37,7 @@ form:
         railscasts: Railscasts
         arta: Arta
         ascetic: Ascetic
+        brown-paper: Brown Paper
         atelier-dune.dark: Atelier Dune Dark
         atelier-dune.light: Atelier Dune Light
         atelier-forest.dark: Atelier Forest Dark
@@ -56,22 +57,24 @@ form:
         foundation: Foundation
         github: Github
         googlecode: GoogleCode
+        grayscale: Grayscale
+        hopscotch: Hopscotch
         hybrid: Hybrid
         idea: Idea
-        ir_black: IRBlack
+        ir-black: IR-Black
         kimbie.dark: Kimbie Dark
         kimbie.light: Kimbie Light
         magula: Magula
         mono-blue: Mono Blue
-        monokai_sublime: Monokai Sublime
+        monokai-sublime: Monokai Sublime
         obsidian: Obsidian
-        paraiso.dark: Paraiso Dark
-        paraiso.light: Paraiso Light
+        paraiso-dark: Paraiso Dark
+        paraiso-light: Paraiso Light
         pojoaque: Pojoaque
         rainbow: Rainbow
-        school_book: School Book
-        solarized_dark: Solarized Dark
-        solarized_light: Solarized Light
+        school-book: School Book
+        solarized-dark: Solarized Dark
+        solarized-light: Solarized Light
         sunburst: Sunburst
         tomorrow-night-blue: Tomorrow Night Blue
         tomorrow-night-bright: Tomorrow Night Bright

@@ -1,8 +1,6 @@
 /*
 
-Pojoaque Style by Jason Tate
-http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html
-Based on Solarized Style from http://ethanschoonover.com/solarized
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
 
 */
 
@@ -10,64 +8,67 @@ Based on Solarized Style from http://ethanschoonover.com/solarized
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  color: #dccf8f;
-  background: url(./pojoaque.jpg) repeat scroll left top #181914;
+  background: #002b36;
+  color: #839496;
 }
 
 .hljs-comment,
 .hljs-quote {
   color: #586e75;
-  font-style: italic;
 }
 
+/* Solarized Green */
 .hljs-keyword,
 .hljs-selector-tag,
-.hljs-literal,
 .hljs-addition {
-  color: #b64926;
+  color: #859900;
 }
 
+/* Solarized Cyan */
 .hljs-number,
 .hljs-string,
+.hljs-meta .hljs-meta-string,
+.hljs-literal,
 .hljs-doctag,
 .hljs-regexp {
-  color: #468966;
+  color: #2aa198;
 }
 
+/* Solarized Blue */
 .hljs-title,
 .hljs-section,
-.hljs-built_in,
-.hljs-name {
-  color: #ffb03b;
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #268bd2;
 }
 
+/* Solarized Yellow */
+.hljs-attribute,
+.hljs-attr,
 .hljs-variable,
 .hljs-template-variable,
 .hljs-class .hljs-title,
-.hljs-type,
-.hljs-tag {
+.hljs-type {
   color: #b58900;
 }
 
-.hljs-attribute {
-  color: #b89859;
-}
-
+/* Solarized Orange */
 .hljs-symbol,
 .hljs-bullet,
-.hljs-link,
 .hljs-subst,
-.hljs-meta {
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-link {
   color: #cb4b16;
 }
 
+/* Solarized Red */
+.hljs-built_in,
 .hljs-deletion {
   color: #dc322f;
-}
-
-.hljs-selector-id,
-.hljs-selector-class {
-  color: #d3a60c;
 }
 
 .hljs-formula {
