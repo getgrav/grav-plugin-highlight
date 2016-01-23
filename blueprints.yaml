@@ -1,5 +1,5 @@
 name: Highlight
-version: 1.2.1
+version: 1.3.0
 description: "This plugin provides code highlighting functionality via the [Highlight.js](https://highlightjs.org/) jQuery plugin."
 icon: code
 author:
@@ -17,12 +17,12 @@ form:
   fields:
     enabled:
       type: toggle
-      label: Plugin status
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
       highlight: 1
       default: 0
       options:
-        1: Enabled
-        0: Disabled
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
       validate:
         type: bool
 
@@ -37,6 +37,7 @@ form:
         railscasts: Railscasts
         arta: Arta
         ascetic: Ascetic
+        brown-paper: Brown Paper
         atelier-dune.dark: Atelier Dune Dark
         atelier-dune.light: Atelier Dune Light
         atelier-forest.dark: Atelier Forest Dark
@@ -56,22 +57,24 @@ form:
         foundation: Foundation
         github: Github
         googlecode: GoogleCode
+        grayscale: Grayscale
+        hopscotch: Hopscotch
         hybrid: Hybrid
         idea: Idea
-        ir_black: IRBlack
+        ir-black: IR-Black
         kimbie.dark: Kimbie Dark
         kimbie.light: Kimbie Light
         magula: Magula
         mono-blue: Mono Blue
-        monokai_sublime: Monokai Sublime
+        monokai-sublime: Monokai Sublime
         obsidian: Obsidian
-        paraiso.dark: Paraiso Dark
-        paraiso.light: Paraiso Light
+        paraiso-dark: Paraiso Dark
+        paraiso-light: Paraiso Light
         pojoaque: Pojoaque
         rainbow: Rainbow
-        school_book: School Book
-        solarized_dark: Solarized Dark
-        solarized_light: Solarized Light
+        school-book: School Book
+        solarized-dark: Solarized Dark
+        solarized-light: Solarized Light
         sunburst: Sunburst
         tomorrow-night-blue: Tomorrow Night Blue
         tomorrow-night-bright: Tomorrow Night Bright

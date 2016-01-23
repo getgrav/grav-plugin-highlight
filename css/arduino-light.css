@@ -1,6 +1,6 @@
 /*
 
-Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 
 */
 
@@ -8,21 +8,20 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #F0F0F0;
+  background: #FFFFFF;
 }
 
 .hljs,
 .hljs-subst {
-  color: #444;
+  color: #434f54;
 }
 
 .hljs-keyword,
 .hljs-attribute,
 .hljs-selector-tag,
-.hljs-meta-keyword,
 .hljs-doctag,
 .hljs-name {
-  font-weight: bold;
+  color: #00979D;
 }
 
 .hljs-built_in,
@@ -30,7 +29,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 .hljs-bullet,
 .hljs-code,
 .hljs-addition {
-  color: #1F811F;
+  color: #D35400;
 }
 
 .hljs-regexp,
@@ -40,18 +39,17 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 .hljs-link,
 .hljs-selector-attr,
 .hljs-selector-pseudo {
-  color: #BC6060;
+  color: #00979D;
 }
 
 .hljs-type,
 .hljs-string,
-.hljs-number,
 .hljs-selector-id,
 .hljs-selector-class,
 .hljs-quote,
 .hljs-template-tag,
 .hljs-deletion {
-  color: #880000;
+  color: #005C5F;
 }
 
 .hljs-title,
@@ -61,11 +59,16 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 }
 
 .hljs-comment {
-  color: #888888;
+  color: rgba(149,165,166,.8);
+}
+
+.hljs-meta-keyword {
+  color: #728E00;
 }
 
 .hljs-meta {
-  color: #2B6EA1;
+  color: #728E00;
+  color: #434f54;
 }
 
 .hljs-emphasis {
@@ -74,4 +77,12 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 
 .hljs-strong {
   font-weight: bold;
+}
+
+.hljs-function {
+  color: #728E00;
+}
+
+.hljs-number {
+  color: #8A7B52;  
 }

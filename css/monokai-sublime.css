@@ -1,19 +1,20 @@
 /*
 
-Darkula color scheme from the JetBrains family of IDEs
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
 
 */
-
 
 .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #2b2b2b;
+  background: #23241f;
 }
 
-.hljs {
-  color: #bababa;
+.hljs,
+.hljs-tag,
+.hljs-subst {
+  color: #f8f8f2;
 }
 
 .hljs-strong,
@@ -23,16 +24,22 @@ Darkula color scheme from the JetBrains family of IDEs
 
 .hljs-bullet,
 .hljs-quote,
-.hljs-link,
 .hljs-number,
 .hljs-regexp,
-.hljs-literal {
-  color: #6896ba;
+.hljs-literal,
+.hljs-link {
+  color: #ae81ff;
 }
 
 .hljs-code,
+.hljs-title,
+.hljs-section,
 .hljs-selector-class {
   color: #a6e22e;
+}
+
+.hljs-strong {
+  font-weight: bold;
 }
 
 .hljs-emphasis {
@@ -41,34 +48,36 @@ Darkula color scheme from the JetBrains family of IDEs
 
 .hljs-keyword,
 .hljs-selector-tag,
-.hljs-section,
-.hljs-attribute,
 .hljs-name,
-.hljs-variable {
-  color: #cb7832;
+.hljs-attr {
+  color: #f92672;
 }
 
-.hljs-params {
-  color: #b9b9b9;
+.hljs-symbol,
+.hljs-attribute {
+  color: #66d9ef;
+}
+
+.hljs-params,
+.hljs-class .hljs-title {
+  color: #f8f8f2;
 }
 
 .hljs-string,
-.hljs-subst,
 .hljs-type,
 .hljs-built_in,
 .hljs-builtin-name,
-.hljs-symbol,
 .hljs-selector-id,
 .hljs-selector-attr,
 .hljs-selector-pseudo,
-.hljs-template-tag,
-.hljs-template-variable,
-.hljs-addition {
-  color: #e0c46c;
+.hljs-addition,
+.hljs-variable,
+.hljs-template-variable {
+  color: #e6db74;
 }
 
 .hljs-comment,
 .hljs-deletion,
 .hljs-meta {
-  color: #7f7f7f;
+  color: #75715e;
 }
