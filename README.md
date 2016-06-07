@@ -85,9 +85,7 @@ You can also disable highlighting for a particular page if causes issues:
     }
     ```
 
-Valid theme options include:
-
-Check out a [live demo](https://highlightjs.org/static/demo/) of these themes!
+Valid theme options include: 
 
 |                        |                          |                           |
 | :--------------------- | :--------------------    | -----------------------   |
@@ -115,6 +113,7 @@ Check out a [live demo](https://highlightjs.org/static/demo/) of these themes!
 | darkula                | github-gist              | pojoaque                  |
 | school_bank            |                          |                           |
 
+Check out a [live demo](https://highlightjs.org/static/demo/) of these themes.
 
 > Note: If you want to see this plugin in action, have a look at [Grav Learn Site](http://learn.getgrav.org)
 
