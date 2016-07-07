@@ -32,7 +32,7 @@ form:
       default: default
       options:
         default: Default
-        monokai: Monakai
+        monokai: Monokai
         learn: Grav Learn
         railscasts: Railscasts
         arta: Arta
