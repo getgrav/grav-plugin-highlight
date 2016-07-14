@@ -1,3 +1,9 @@
+# v1.3.1
+## 07/14/2016
+
+1. [](#bugfix)
+    * Fixed a typo in the Monokai theme name
+
 # v1.3.0
 ## 01/22/2016
 
