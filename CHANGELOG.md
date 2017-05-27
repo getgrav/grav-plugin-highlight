@@ -1,3 +1,9 @@
+# v1.3.2
+## 05/xx/2017
+
+1. [](#new)
+    * Added option for line numbers
+
 # v1.3.1
 ## 07/14/2016
 
