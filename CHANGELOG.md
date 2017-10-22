@@ -1,8 +1,8 @@
 # v1.3.2
-## 05/xx/2017
+## 10/22/2017
 
 1. [](#new)
-    * Added option for line numbers
+    * Added option for line numbers [#12](https://github.com/getgrav/grav-plugin-highlight/pull/12)
 
 # v1.3.1
 ## 07/14/2016
