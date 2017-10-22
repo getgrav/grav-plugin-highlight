@@ -30,7 +30,7 @@ You should now have all the plugin files under
 
 To best understand how Highlight works, you should read through the original project [documentation](https://highlightjs.org/usage/).
 
-You can override any default setings from the page headers:
+You can override any default settings from the page headers:
 
 eg:
 
@@ -84,6 +84,15 @@ You can also disable highlighting for a particular page if causes issues:
       }
     }
     ```
+
+Further, you can also enable line numbers on a specific page, or globally (in highlight.yaml):
+
+    ---
+    title: Sample Code with Highlight and line numbers enabled
+    highlight:
+        enabled: true
+        lines: true
+    ---
 
 Valid theme options include: 
 
