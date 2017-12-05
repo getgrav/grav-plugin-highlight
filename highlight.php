@@ -55,6 +55,7 @@ class HighlightPlugin extends Plugin
         $this->grav['assets']->addJs('plugin://highlight/js/highlight.pack.js');
         if ($this->config->get('plugins.highlight.lines')) {
             $this->grav['assets']->addJs('plugin://highlight/js/highlightjs-line-numbers.min.js');
+            $this->grav['assets']->addCss('plugin://highlight/css/highlightjs-line-numbers.css');
         }
         $this->grav['assets']->addInlineJs($init);
     }
