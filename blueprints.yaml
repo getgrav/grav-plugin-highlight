@@ -26,6 +26,17 @@ form:
       validate:
         type: bool
 
+    lines:
+      type: toggle
+      label: Line Numbers
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
     theme:
       type: select
       label: CSS Theme
