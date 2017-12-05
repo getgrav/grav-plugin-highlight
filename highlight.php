@@ -46,14 +46,10 @@ class HighlightPlugin extends Plugin
      */
     public function onTwigSiteVariables()
     {
-        $init = "$(document).ready(function() {\n";
-        $init .= "$('pre code').each(function(i, block) {\n";
-        $init .= "hljs.highlightBlock(block);\n";
+        $init = "hljs.initHighlightingOnLoad();\n";
         if ($this->config->get('plugins.highlight.lines')) {
             $init .= "hljs.initLineNumbersOnLoad();\n";
         }
-        $init .= "});\n";
-        $init .= "});\n";
         $theme = $this->config->get('plugins.highlight.theme') ?: 'default';
         $this->grav['assets']->addCss('plugin://highlight/css/'.$theme.'.css');
         $this->grav['assets']->addJs('plugin://highlight/js/highlight.pack.js');
