@@ -119,3 +119,2119 @@ form:
         xt256: xt256
         zenburn: Zenburn
 
+    languages:
+        type: section
+        title: Languages
+        underline: true
+
+    languages.1c:
+      type: toggle
+      label: "1C:Enterprise (v7, v8)"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for '1C:Enterprise (v7, v8)'"
+
+    languages.abnf:
+      type: toggle
+      label: "Augmented Backus-Naur Form"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Augmented Backus-Naur Form'"
+
+    languages.accesslog:
+      type: toggle
+      label: "Access log"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Access log'"
+
+    languages.actionscript:
+      type: toggle
+      label: "ActionScript"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'ActionScript'"
+
+    languages.ada:
+      type: toggle
+      label: "Ada"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Ada'"
+
+    languages.apache:
+      type: toggle
+      label: "Apache"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Apache'"
+
+    languages.applescript:
+      type: toggle
+      label: "AppleScript"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'AppleScript'"
+
+    languages.arduino:
+      type: toggle
+      label: "Arduino"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Arduino'"
+
+    languages.armasm:
+      type: toggle
+      label: "ARM Assembly"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'ARM Assembly'"
+
+    languages.asciidoc:
+      type: toggle
+      label: "AsciiDoc"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'AsciiDoc'"
+
+    languages.aspectj:
+      type: toggle
+      label: "AspectJ"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'AspectJ'"
+
+    languages.autohotkey:
+      type: toggle
+      label: "AutoHotkey"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'AutoHotkey'"
+
+    languages.autoit:
+      type: toggle
+      label: "AutoIt"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'AutoIt'"
+
+    languages.avrasm:
+      type: toggle
+      label: "AVR Assembler"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'AVR Assembler'"
+
+    languages.awk:
+      type: toggle
+      label: "Awk"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Awk'"
+
+    languages.axapta:
+      type: toggle
+      label: "Axapta"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Axapta'"
+
+    languages.bash:
+      type: toggle
+      label: "Bash"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Bash'"
+
+    languages.basic:
+      type: toggle
+      label: "Basic"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Basic'"
+
+    languages.bnf:
+      type: toggle
+      label: "Backus–Naur Form"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Backus–Naur Form'"
+
+    languages.brainfuck:
+      type: toggle
+      label: "Brainfuck"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Brainfuck'"
+
+    languages.cal:
+      type: toggle
+      label: "C/AL"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'C/AL'"
+
+    languages.capnproto:
+      type: toggle
+      label: "Cap’n Proto"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Cap’n Proto'"
+
+    languages.ceylon:
+      type: toggle
+      label: "Ceylon"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Ceylon'"
+
+    languages.clean:
+      type: toggle
+      label: "Clean"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Clean'"
+
+    languages.clojure-repl:
+      type: toggle
+      label: "Clojure REPL"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Clojure REPL'"
+
+    languages.clojure:
+      type: toggle
+      label: "Clojure"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Clojure'"
+
+    languages.cmake:
+      type: toggle
+      label: "CMake"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'CMake'"
+
+    languages.coffeescript:
+      type: toggle
+      label: "CoffeeScript"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'CoffeeScript'"
+
+    languages.coq:
+      type: toggle
+      label: "Coq"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Coq'"
+
+    languages.cos:
+      type: toggle
+      label: "Caché Object Script"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Caché Object Script'"
+
+    languages.cpp:
+      type: toggle
+      label: "C++"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'C++'"
+
+    languages.crmsh:
+      type: toggle
+      label: "crmsh"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'crmsh'"
+
+    languages.crystal:
+      type: toggle
+      label: "Crystal"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Crystal'"
+
+    languages.cs:
+      type: toggle
+      label: "C#"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'C#'"
+
+    languages.csp:
+      type: toggle
+      label: "CSP"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'CSP'"
+
+    languages.css:
+      type: toggle
+      label: "CSS"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'CSS'"
+
+    languages.d:
+      type: toggle
+      label: "D"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'D'"
+
+    languages.dart:
+      type: toggle
+      label: "Dart"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Dart'"
+
+    languages.delphi:
+      type: toggle
+      label: "Delphi"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Delphi'"
+
+    languages.diff:
+      type: toggle
+      label: "Diff"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Diff'"
+
+    languages.django:
+      type: toggle
+      label: "Django"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Django'"
+
+    languages.dns:
+      type: toggle
+      label: "DNS Zone file"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'DNS Zone file'"
+
+    languages.dockerfile:
+      type: toggle
+      label: "Dockerfile"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Dockerfile'"
+
+    languages.dos:
+      type: toggle
+      label: "DOS .bat"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'DOS .bat'"
+
+    languages.dsconfig:
+      type: toggle
+      label: "dsconfig"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'dsconfig'"
+
+    languages.dts:
+      type: toggle
+      label: "Device Tree"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Device Tree'"
+
+    languages.dust:
+      type: toggle
+      label: "Dust"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Dust'"
+
+    languages.ebnf:
+      type: toggle
+      label: "Extended Backus-Naur Form"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Extended Backus-Naur Form'"
+
+    languages.elixir:
+      type: toggle
+      label: "Elixir"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Elixir'"
+
+    languages.elm:
+      type: toggle
+      label: "Elm"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Elm'"
+
+    languages.erb:
+      type: toggle
+      label: "ERB (Embedded Ruby)"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'ERB (Embedded Ruby)'"
+
+    languages.erlang-repl:
+      type: toggle
+      label: "Erlang REPL"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Erlang REPL'"
+
+    languages.erlang:
+      type: toggle
+      label: "Erlang"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Erlang'"
+
+    languages.excel:
+      type: toggle
+      label: "Excel"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Excel'"
+
+    languages.fix:
+      type: toggle
+      label: "FIX"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'FIX'"
+
+    languages.flix:
+      type: toggle
+      label: "Flix"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Flix'"
+
+    languages.fortran:
+      type: toggle
+      label: "Fortran"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Fortran'"
+
+    languages.fsharp:
+      type: toggle
+      label: "F#"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'F#'"
+
+    languages.gams:
+      type: toggle
+      label: "GAMS"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'GAMS'"
+
+    languages.gauss:
+      type: toggle
+      label: "GAUSS"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'GAUSS'"
+
+    languages.gcode:
+      type: toggle
+      label: "G-code (ISO 6983)"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'G-code (ISO 6983)'"
+
+    languages.gherkin:
+      type: toggle
+      label: "Gherkin"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Gherkin'"
+
+    languages.glsl:
+      type: toggle
+      label: "GLSL"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'GLSL'"
+
+    languages.go:
+      type: toggle
+      label: "Go"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Go'"
+
+    languages.golo:
+      type: toggle
+      label: "Golo"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Golo'"
+
+    languages.gradle:
+      type: toggle
+      label: "Gradle"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Gradle'"
+
+    languages.groovy:
+      type: toggle
+      label: "Groovy"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Groovy'"
+
+    languages.haml:
+      type: toggle
+      label: "Haml"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Haml'"
+
+    languages.handlebars:
+      type: toggle
+      label: "Handlebars"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Handlebars'"
+
+    languages.haskell:
+      type: toggle
+      label: "Haskell"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Haskell'"
+
+    languages.haxe:
+      type: toggle
+      label: "Haxe"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Haxe'"
+
+    languages.hsp:
+      type: toggle
+      label: "HSP"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'HSP'"
+
+    languages.htmlbars:
+      type: toggle
+      label: "HTMLBars"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'HTMLBars'"
+
+    languages.http:
+      type: toggle
+      label: "HTTP"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'HTTP'"
+
+    languages.hy:
+      type: toggle
+      label: "Hy"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Hy'"
+
+    languages.inform7:
+      type: toggle
+      label: "Inform 7"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Inform 7'"
+
+    languages.ini:
+      type: toggle
+      label: "Ini"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Ini'"
+
+    languages.irpf90:
+      type: toggle
+      label: "IRPF90"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'IRPF90'"
+
+    languages.java:
+      type: toggle
+      label: "Java"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Java'"
+
+    languages.javascript:
+      type: toggle
+      label: "JavaScript"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'JavaScript'"
+
+    languages.jboss-cli:
+      type: toggle
+      label: "jboss-cli"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'jboss-cli'"
+
+    languages.json:
+      type: toggle
+      label: "JSON"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'JSON'"
+
+    languages.julia-repl:
+      type: toggle
+      label: "Julia REPL"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Julia REPL'"
+
+    languages.julia:
+      type: toggle
+      label: "Julia"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Julia'"
+
+    languages.kotlin:
+      type: toggle
+      label: "Kotlin"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Kotlin'"
+
+    languages.lasso:
+      type: toggle
+      label: "Lasso"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Lasso'"
+
+    languages.ldif:
+      type: toggle
+      label: "LDIF"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'LDIF'"
+
+    languages.leaf:
+      type: toggle
+      label: "Leaf"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Leaf'"
+
+    languages.less:
+      type: toggle
+      label: "Less"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Less'"
+
+    languages.lisp:
+      type: toggle
+      label: "Lisp"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Lisp'"
+
+    languages.livecodeserver:
+      type: toggle
+      label: "LiveCode"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'LiveCode'"
+
+    languages.livescript:
+      type: toggle
+      label: "LiveScript"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'LiveScript'"
+
+    languages.llvm:
+      type: toggle
+      label: "LLVM IR"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'LLVM IR'"
+
+    languages.lsl:
+      type: toggle
+      label: "Linden Scripting Language"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Linden Scripting Language'"
+
+    languages.lua:
+      type: toggle
+      label: "Lua"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Lua'"
+
+    languages.makefile:
+      type: toggle
+      label: "Makefile"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Makefile'"
+
+    languages.markdown:
+      type: toggle
+      label: "Markdown"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Markdown'"
+
+    languages.mathematica:
+      type: toggle
+      label: "Mathematica"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Mathematica'"
+
+    languages.matlab:
+      type: toggle
+      label: "Matlab"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Matlab'"
+
+    languages.maxima:
+      type: toggle
+      label: "Maxima"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Maxima'"
+
+    languages.mel:
+      type: toggle
+      label: "MEL"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'MEL'"
+
+    languages.mercury:
+      type: toggle
+      label: "Mercury"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Mercury'"
+
+    languages.mipsasm:
+      type: toggle
+      label: "MIPS Assembly"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'MIPS Assembly'"
+
+    languages.mizar:
+      type: toggle
+      label: "Mizar"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Mizar'"
+
+    languages.mojolicious:
+      type: toggle
+      label: "Mojolicious"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Mojolicious'"
+
+    languages.monkey:
+      type: toggle
+      label: "Monkey"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Monkey'"
+
+    languages.moonscript:
+      type: toggle
+      label: "MoonScript"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'MoonScript'"
+
+    languages.n1ql:
+      type: toggle
+      label: "N1QL"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'N1QL'"
+
+    languages.nginx:
+      type: toggle
+      label: "Nginx"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Nginx'"
+
+    languages.nimrod:
+      type: toggle
+      label: "Nimrod"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Nimrod'"
+
+    languages.nix:
+      type: toggle
+      label: "Nix"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Nix'"
+
+    languages.nsis:
+      type: toggle
+      label: "NSIS"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'NSIS'"
+
+    languages.objectivec:
+      type: toggle
+      label: "Objective-C"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Objective-C'"
+
+    languages.ocaml:
+      type: toggle
+      label: "OCaml"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'OCaml'"
+
+    languages.openscad:
+      type: toggle
+      label: "OpenSCAD"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'OpenSCAD'"
+
+    languages.oxygene:
+      type: toggle
+      label: "Oxygene"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Oxygene'"
+
+    languages.parser3:
+      type: toggle
+      label: "Parser3"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Parser3'"
+
+    languages.perl:
+      type: toggle
+      label: "Perl"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Perl'"
+
+    languages.pf:
+      type: toggle
+      label: "pf"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'pf'"
+
+    languages.php:
+      type: toggle
+      label: "PHP"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'PHP'"
+
+    languages.pony:
+      type: toggle
+      label: "Pony"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Pony'"
+
+    languages.powershell:
+      type: toggle
+      label: "PowerShell"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'PowerShell'"
+
+    languages.processing:
+      type: toggle
+      label: "Processing"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Processing'"
+
+    languages.profile:
+      type: toggle
+      label: "Python profile"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Python profile'"
+
+    languages.prolog:
+      type: toggle
+      label: "Prolog"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Prolog'"
+
+    languages.protobuf:
+      type: toggle
+      label: "Protocol Buffers"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Protocol Buffers'"
+
+    languages.puppet:
+      type: toggle
+      label: "Puppet"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Puppet'"
+
+    languages.purebasic:
+      type: toggle
+      label: "PureBASIC"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'PureBASIC'"
+
+    languages.python:
+      type: toggle
+      label: "Python"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Python'"
+
+    languages.q:
+      type: toggle
+      label: "Q"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Q'"
+
+    languages.qml:
+      type: toggle
+      label: "QML"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'QML'"
+
+    languages.r:
+      type: toggle
+      label: "R"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'R'"
+
+    languages.rib:
+      type: toggle
+      label: "RenderMan RIB"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'RenderMan RIB'"
+
+    languages.roboconf:
+      type: toggle
+      label: "Roboconf"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Roboconf'"
+
+    languages.routeros:
+      type: toggle
+      label: "Microtik RouterOS script"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Microtik RouterOS script'"
+
+    languages.rsl:
+      type: toggle
+      label: "RenderMan RSL"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'RenderMan RSL'"
+
+    languages.ruby:
+      type: toggle
+      label: "Ruby"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Ruby'"
+
+    languages.ruleslanguage:
+      type: toggle
+      label: "Oracle Rules Language"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Oracle Rules Language'"
+
+    languages.rust:
+      type: toggle
+      label: "Rust"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Rust'"
+
+    languages.scala:
+      type: toggle
+      label: "Scala"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Scala'"
+
+    languages.scheme:
+      type: toggle
+      label: "Scheme"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Scheme'"
+
+    languages.scilab:
+      type: toggle
+      label: "Scilab"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Scilab'"
+
+    languages.scss:
+      type: toggle
+      label: "SCSS"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'SCSS'"
+
+    languages.shell:
+      type: toggle
+      label: "Shell Session"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Shell Session'"
+
+    languages.smali:
+      type: toggle
+      label: "Smali"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Smali'"
+
+    languages.smalltalk:
+      type: toggle
+      label: "Smalltalk"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Smalltalk'"
+
+    languages.sml:
+      type: toggle
+      label: "SML"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'SML'"
+
+    languages.sqf:
+      type: toggle
+      label: "SQF"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'SQF'"
+
+    languages.sql:
+      type: toggle
+      label: "SQL"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'SQL'"
+
+    languages.stan:
+      type: toggle
+      label: "Stan"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Stan'"
+
+    languages.stata:
+      type: toggle
+      label: "Stata"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Stata'"
+
+    languages.step21:
+      type: toggle
+      label: "STEP Part 21"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'STEP Part 21'"
+
+    languages.stylus:
+      type: toggle
+      label: "Stylus"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Stylus'"
+
+    languages.subunit:
+      type: toggle
+      label: "SubUnit"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'SubUnit'"
+
+    languages.swift:
+      type: toggle
+      label: "Swift"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Swift'"
+
+    languages.taggerscript:
+      type: toggle
+      label: "Tagger Script"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Tagger Script'"
+
+    languages.tap:
+      type: toggle
+      label: "Test Anything Protocol"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Test Anything Protocol'"
+
+    languages.tcl:
+      type: toggle
+      label: "Tcl"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Tcl'"
+
+    languages.tex:
+      type: toggle
+      label: "TeX"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'TeX'"
+
+    languages.thrift:
+      type: toggle
+      label: "Thrift"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Thrift'"
+
+    languages.tp:
+      type: toggle
+      label: "TP"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'TP'"
+
+    languages.twig:
+      type: toggle
+      label: "Twig"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Twig'"
+
+    languages.typescript:
+      type: toggle
+      label: "TypeScript"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'TypeScript'"
+
+    languages.vala:
+      type: toggle
+      label: "Vala"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Vala'"
+
+    languages.vbnet:
+      type: toggle
+      label: "VB.NET"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'VB.NET'"
+
+    languages.vbscript-html:
+      type: toggle
+      label: "VBScript in HTML"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'VBScript in HTML'"
+
+    languages.vbscript:
+      type: toggle
+      label: "VBScript"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'VBScript'"
+
+    languages.verilog:
+      type: toggle
+      label: "Verilog"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Verilog'"
+
+    languages.vhdl:
+      type: toggle
+      label: "VHDL"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'VHDL'"
+
+    languages.vim:
+      type: toggle
+      label: "Vim Script"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Vim Script'"
+
+    languages.x86asm:
+      type: toggle
+      label: "Intel x86 Assembly"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Intel x86 Assembly'"
+
+    languages.xl:
+      type: toggle
+      label: "XL"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'XL'"
+
+    languages.xml:
+      type: toggle
+      label: "HTML, XML"
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'HTML, XML'"
+
+    languages.xquery:
+      type: toggle
+      label: "XQuery"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'XQuery'"
+
+    languages.yaml:
+      type: toggle
+      label: "YAML"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'YAML'"
+
+    languages.zephir:
+      type: toggle
+      label: "Zephir"
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: "Enable code highlighting support for 'Zephir'"
