@@ -89,8 +89,8 @@ form:
         hybrid: Hybrid
         idea: Idea
         ir-black: IR-Black
-        kimbie-dark: Kimbie Dark
-        kimbie-light: Kimbie Light
+        kimbie.dark: Kimbie Dark
+        kimbie.light: Kimbie Light
         magula: Magula
         mono-blue: Mono Blue
         monokai-sublime: Monokai Sublime
@@ -100,8 +100,8 @@ form:
         paraiso-light: Paraiso Light
         pojoaque: Pojoaque
         purebasic: Purebasic
-        qtcreator-dark: Qt Creator Dark
-        qtcreator-light: Qt Creator Light
+        qtcreator_dark: Qt Creator Dark
+        qtcreator_light: Qt Creator Light
         rainbow: Rainbow
         routeros: Routeros
         school-book: School Book

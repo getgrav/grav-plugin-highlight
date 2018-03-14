@@ -1,3 +1,9 @@
+# v1.4.1
+## mm/dd/2018
+
+1. [](#improved)
+    * Updated styles and fixed a couple that were missing from blueprint due to typos
+
 # v1.4.0
 ## 12/05/2017
 
