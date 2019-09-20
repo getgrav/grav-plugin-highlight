@@ -2,7 +2,9 @@
 ## mm/dd/2018
 
 1. [](#improved)
+    * Updated core `hightlight.pack.js` to include `SCSS` and `Twig`
     * Updated styles and fixed a couple that were missing from blueprint due to typos
+    * FlexObjects compatibility: changed references to `Page` class to use `PageInterface`
 
 # v1.4.0
 ## 12/05/2017
