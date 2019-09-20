@@ -1,8 +1,8 @@
 <?php
 namespace Grav\Plugin;
 
-use \Grav\Common\Plugin;
-use \Grav\Common\Page\PageInterface;
+use Grav\Common\Plugin;
+use Grav\Common\Page\Interfaces\PageInterface;
 
 class HighlightPlugin extends Plugin
 {
