@@ -1,5 +1,5 @@
 # v1.4.1
-## mm/dd/2018
+## 09/20/2019
 
 1. [](#improved)
     * Updated core `hightlight.pack.js` to include `SCSS` and `Twig`

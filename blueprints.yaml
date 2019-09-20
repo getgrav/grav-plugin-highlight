@@ -1,5 +1,5 @@
 name: Highlight
-version: 1.4.1-dev
+version: 1.4.1
 description: "This plugin provides code highlighting functionality via the [Highlight.js](https://highlightjs.org/) jQuery plugin."
 icon: code
 author:
