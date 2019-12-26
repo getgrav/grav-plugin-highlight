@@ -124,8 +124,6 @@ Valid theme options include:
 
 Check out a [live demo](https://highlightjs.org/static/demo/) of these themes.
 
-> Note: If you want to see this plugin in action, have a look at [Grav Learn Site](http://learn.getgrav.org)
-
 # Updating
 
 As development for the Highlight plugin continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. Updating Highlight is easy, and can be done through Grav's GPM system, as well as manually.
