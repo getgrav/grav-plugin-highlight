@@ -4,6 +4,9 @@
 
 `highlight` is a [Grav](http://github.com/getgrav/grav) plugin that adds simple and powerful code highlighting functionality utilizing the jQuery plugin [Highlight.js](https://highlightjs.org/).
 
+> Highlight.js: v10.1.2
+> Highlight.js line numbers [plugin](https://github.com/wcoder/highlightjs-line-numbers.js/): v2.8.0
+
 # Installation
 
 Installing the Highlight plugin can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the plugin with a simple terminal command, while the manual method enables you to do so via a zip file. 
