@@ -1,5 +1,5 @@
 name: Highlight
-version: 1.4.1
+version: 1.4.2
 description: "This plugin provides code highlighting functionality via the [Highlight.js](https://highlightjs.org/) jQuery plugin."
 icon: code
 author:
@@ -49,9 +49,11 @@ form:
         monokai: Monokai
         learn: Grav Learn
         railscasts: Railscasts
+        a11y-dark: A11y Dark
+        a11y-light: A11y Light
+        an-old-hope: An Old Hope
         arta: Arta
         ascetic: Ascetic
-        brown-paper: Brown Paper
         atelier-cave.dark: Atelier Cave Dark
         atelier-cave.light: Atelier Cave Light
         atelier-dune.dark: Atelier Dune Dark
@@ -74,17 +76,20 @@ form:
         atelier-sulphurpool.light: Atelier Sulphurpool Light
         atom-one-dark: Atom One Dark
         atom-one-light: Atom One Light
+        atome-one-dark-reasonable: Atome One Dark Reasonable
         brown-paper: Brown Paper
         codepen-embed: Codepen Embed
         color-brewer: Color Brewer
         darcula: Darcula
         dark: Dark
-        dracula: Dracula
         docco: Docco
+        dracula: Dracula
         far: Far
         foundation: Foundation
         github: Github
+        gml: GML
         googlecode: GoogleCode
+        gradient-dark: Gradient Dark
         grayscale: Grayscale
         gruvbox-dark: Gruvbox Dark
         gruvbox-light: Gruvbox Light
@@ -92,11 +97,19 @@ form:
         hybrid: Hybrid
         idea: Idea
         ir-black: IR-Black
+        isbl-editor-dark: ISBL Editor Dark
+        isbl-editor-light: ISBL Editor Light
         kimbie.dark: Kimbie Dark
         kimbie.light: Kimbie Light
+        lightfair: LightFair
+        lioshi: Lioshi
         magula: Magula
         mono-blue: Mono Blue
         monokai-sublime: Monokai Sublime
+        night-owl: Night Owl
+        nnfx-dark: NNFX Dark
+        nnfx: NNFX
+        nord: Nord
         obsidian: Obsidian
         ocean: Ocean
         paraiso-dark: Paraiso Dark
@@ -108,8 +121,10 @@ form:
         rainbow: Rainbow
         routeros: Routeros
         school-book: School Book
+        shades-of-purple: Shades of Purples
         solarized-dark: Solarized Dark
         solarized-light: Solarized Light
+        srcery: Srcery
         sunburst: Sunburst
         tomorrow-night-blue: Tomorrow Night Blue
         tomorrow-night-bright: Tomorrow Night Bright
@@ -121,4 +136,3 @@ form:
         xcode: XCode
         xt256: xt256
         zenburn: Zenburn
-
