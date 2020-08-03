@@ -1,5 +1,5 @@
 # v1.4.2
-## 07/30/2020
+## 08/03/2020
 
 $. [](#improved)
     * Updated `highlight.js` to version 10.1.2
