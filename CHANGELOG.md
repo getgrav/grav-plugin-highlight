@@ -1,3 +1,19 @@
+# v1.4.3
+## 02/24/2021
+
+1. [](#improved)
+    * Updated `highlight.js` to version 10.5.0
+    * New themes: Agate, Android Studio, Arduino Light, Github Gist, Gradient Light, Stackoverflow Dark & Stackoverflow Light
+1. [](#bugfix)
+    * Fixed some themes not working (mainly "Atelier" variants)
+
+# v1.4.2
+## 08/03/2020
+
+1. [](#improved)
+    * Updated `highlight.js` to version 10.1.2
+    * Updated `highlightjs-line-numbers.js` plugin to version 2.8.0
+
 # v1.4.1
 ## 09/20/2019
 
