@@ -1,5 +1,5 @@
 name: Highlight
-version: 1.4.2
+version: 1.5.0
 description: "This plugin provides code highlighting functionality via the [Highlight.js](https://highlightjs.org/) jQuery plugin."
 icon: code
 author:
@@ -46,37 +46,37 @@ form:
       default: default
       options:
         default: Default
-        monokai: Monokai
-        learn: Grav Learn
-        railscasts: Railscasts
         a11y-dark: A11y Dark
         a11y-light: A11y Light
+        agate: Agate
         an-old-hope: An Old Hope
+        androidstudio: Android Studio
+        arduino-light: Arduino Light
         arta: Arta
         ascetic: Ascetic
-        atelier-cave.dark: Atelier Cave Dark
-        atelier-cave.light: Atelier Cave Light
-        atelier-dune.dark: Atelier Dune Dark
-        atelier-dune.light: Atelier Dune Light
-        atelier-estuary.dark: Atelier Estuary Dark
-        atelier-estuary.light: Atelier Estuary Light
-        atelier-forest.dark: Atelier Forest Dark
-        atelier-forest.light: Atelier Forest Light
-        atelier-heath.dark: Atelier Heath Dark
-        atelier-heath.light: Atelier Heath Light
-        atelier-lakeside.dark: Atelier Lakeside Dark
-        atelier-lakeside.light: Atelier Lakeside Light
-        atelier-plateau.dark: Atelier Plateau Dark
-        atelier-plateau.light: Atelier Plateau Light
-        atelier-savanna.dark: Atelier Savanna Dark
-        atelier-savanna.light: Atelier Savanna Light
+        atelier-cave-dark: Atelier Cave Dark
+        atelier-cave-light: Atelier Cave Light
+        atelier-dune-dark: Atelier Dune Dark
+        atelier-dune-light: Atelier Dune Light
+        atelier-estuary-dark: Atelier Estuary Dark
+        atelier-estuary-light: Atelier Estuary Light
+        atelier-forest-dark: Atelier Forest Dark
+        atelier-forest-light: Atelier Forest Light
+        atelier-heath-dark: Atelier Heath Dark
+        atelier-heath-light: Atelier Heath Light
+        atelier-lakeside-dark: Atelier Lakeside Dark
+        atelier-lakeside-light: Atelier Lakeside Light
+        atelier-plateau-dark: Atelier Plateau Dark
+        atelier-plateau-light: Atelier Plateau Light
+        atelier-savanna-dark: Atelier Savanna Dark
+        atelier-savanna-light: Atelier Savanna Light
         atelier-seaside-dark: Atelier Seaside Dark
         atelier-seaside-light: Atelier Seaside Light
-        atelier-sulphurpool.dark: Atelier Sulphurpool Dark
-        atelier-sulphurpool.light: Atelier Sulphurpool Light
+        atelier-sulphurpool-dark: Atelier Sulphurpool Dark
+        atelier-sulphurpool-light: Atelier Sulphurpool Light
         atom-one-dark: Atom One Dark
+        atom-one-dark-reasonable: Atom One Dark Reasonable
         atom-one-light: Atom One Light
-        atome-one-dark-reasonable: Atome One Dark Reasonable
         brown-paper: Brown Paper
         codepen-embed: Codepen Embed
         color-brewer: Color Brewer
@@ -87,9 +87,11 @@ form:
         far: Far
         foundation: Foundation
         github: Github
+        github-gist: Github Gist
         gml: GML
         googlecode: GoogleCode
         gradient-dark: Gradient Dark
+        gradient-light: Gradient Light
         grayscale: Grayscale
         gruvbox-dark: Gruvbox Dark
         gruvbox-light: Gruvbox Light
@@ -101,10 +103,12 @@ form:
         isbl-editor-light: ISBL Editor Light
         kimbie.dark: Kimbie Dark
         kimbie.light: Kimbie Light
-        lightfair: LightFair
+        learn: Grav Learn
+        lightfair: Lightfair
         lioshi: Lioshi
         magula: Magula
         mono-blue: Mono Blue
+        monokai: Monokai
         monokai-sublime: Monokai Sublime
         night-owl: Night Owl
         nnfx-dark: NNFX Dark
@@ -118,20 +122,23 @@ form:
         purebasic: Purebasic
         qtcreator_dark: Qt Creator Dark
         qtcreator_light: Qt Creator Light
+        railscasts: Railscasts
         rainbow: Rainbow
         routeros: Routeros
         school-book: School Book
-        shades-of-purple: Shades of Purples
+        shades-of-purple: Shades Of Purple
         solarized-dark: Solarized Dark
         solarized-light: Solarized Light
         srcery: Srcery
+        stackoverflow-dark: Stackoverflow Dark
+        stackoverflow-light: Stackoverflow Light
         sunburst: Sunburst
+        tomorrow: Tomorrow
+        tomorrow-night: Tomorrow Night
         tomorrow-night-blue: Tomorrow Night Blue
         tomorrow-night-bright: Tomorrow Night Bright
         tomorrow-night-eighties: Tomorrow Night Eighties
-        tomorrow-night: Tomorrow Night
-        tomorrow: Tomorrow
-        vs: VS
+        vs: Visual Studio
         vs2015: Visual Studio 2015
         xcode: XCode
         xt256: xt256

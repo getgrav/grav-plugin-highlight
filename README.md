@@ -2,9 +2,9 @@
 
 ![Highlight](assets/readme_1.png)
 
-`highlight` is a [Grav](http://github.com/getgrav/grav) plugin that adds simple and powerful code highlighting functionality utilizing the jQuery plugin [Highlight.js](https://highlightjs.org/).
+`highlight` is a [Grav](http://github.com/getgrav/grav) plugin that adds simple and powerful code highlighting functionality utilizing [Highlight.js](https://highlightjs.org/).
 
-> Highlight.js: v10.1.2
+> Highlight.js: v10.5.0  
 > Highlight.js line numbers [plugin](https://github.com/wcoder/highlightjs-line-numbers.js/): v2.8.0
 
 # Installation
@@ -99,35 +99,63 @@ Further, you can also enable line numbers on a specific page, or globally (in hi
 
 Valid theme options include: 
 
-|                        |                          |                           |
-| :--------------------- | :--------------------    | -----------------------   |
-| arta                   | ascetic                  | atelier-dune.dark         |
-| atelier-dune.light     | atelier-forest.dark      | atelier-forest.light      |
-| atelier-heath.dark     | atelier-heath.light      | atelier-lakeside.dark     |
-| atelier-lakeside.light | atelier-seaside.dark     | atelier-seaside.light     |
-| brown_paper            | codepen-embed            | color-brewer              |
-| dark                   | default                  | docco                     |
-| far                    | foundation               | github                    |
-| googlecode             | hybrid                   | idea                      |
-| ir_black               | kimbie.dark              | kimbie.light              |
-| learn                  | magula                   | mono-blue                 |
-| monokai_sublime        | monokai                  | obsidian                  |
-| paraiso.dark           | paraiso.light            | pojoaque                  |
-| railscasts             | rainbow                  | school_book               |
-| solarized_dark         | solarized_light          | sunburst                  |
-| tomorrow-night-blue    | tomorrow-night-bright    | tomorrow-night-eighties   |
-| tomorrow-night         | tomorrow                 | vs                        |
-| xcode                  | zenburn                  |                           |
-| agate                  | androidstudio            | atelier-cave.dark         |
-| atelier-cave.light     | atelier-estuary.dark     | atelier-estuary.light     |
-| atelier-plateau.dark   | atelier-plateau.light    | atelier-savanna.dark      |
-| atelier-savanna.light  | atelier-sulphurpool.dark | atelier-sulphurpool.light |
-| darkula                | github-gist              | pojoaque                  |
-| school_bank            |                          |                           |
+|                           |                          |                        |
+| :------------------------ | :--------------------    | :--------------------- |
+| a11y-dark                 | darcula                  | nnfx-dark
+| a11y-light                | dark                     | nord
+| agate                     | default                  | obsidian
+| an-old-hope               | docco                    | ocean
+| androidstudio             | dracula                  | paraiso-dark
+| arduino-light             | far                      | paraiso-light
+| arta                      | foundation               | pojoaque
+| ascetic                   | github                   | purebasic
+| atelier-cave-dark         | github-gist              | qtcreator_dark
+| atelier-cave-light        | gml                      | qtcreator_light
+| atelier-dune-dark         | googlecode               | railscasts
+| atelier-dune-light        | gradient-dark            | rainbow
+| atelier-estuary-dark      | gradient-light           | routeros
+| atelier-estuary-light     | grayscale                | school-book
+| atelier-forest-dark       | gruvbox-dark             | school-book
+| atelier-forest-light      | gruvbox-light            | shades-of-purple
+| atelier-heath-dark        | highlightjs-line-numbers | solarized-dark
+| atelier-heath-light       | hopscotch                | solarized-light
+| atelier-lakeside-dark     | hybrid                   | srcery
+| atelier-lakeside-light    | idea                     | stackoverflow-dark
+| atelier-plateau-dark      | ir-black                 | stackoverflow-light
+| atelier-plateau-light     | isbl-editor-dark         | sunburst
+| atelier-savanna-dark      | isbl-editor-light        | tomorrow
+| atelier-savanna-light     | kimbie.dark              | tomorrow-night
+| atelier-seaside-dark      | kimbie.light             | tomorrow-night-blue
+| atelier-seaside-light     | learn                    | tomorrow-night-bright
+| atelier-sulphurpool-dark  | lightfair                | tomorrow-night-eighties
+| atelier-sulphurpool-light | lioshi                   | vs
+| atom-one-dark             | magula                   | vs2015
+| atom-one-dark-reasonable  | mono-blue                | xcode
+| atom-one-light            | monokai                  | xt256
+| brown-paper               | monokai-sublime          | zenburn
+| codepen-embed             | night-owl                | 
+| color-brewer              | nnfx                     | 
 
 Check out a [live demo](https://highlightjs.org/static/demo/) of these themes.
 
-> Note: If you want to see this plugin in action, have a look at [Grav Learn Site](http://learn.getgrav.org)
+Following languages are supported:
+
+|                        |                          |                           |
+| :--------------------- | :--------------------    | :----------------------   |
+| .properties            | JSON                     | R                         |
+| Apache config          | Kotlin                   | Ruby                      |
+| Bash                   | Less                     | Rust                      |
+| C                      | Lua                      | SCSS                      |
+| C#                     | Makefile                 | Shell Session             |
+| C++                    | Markdown                 | SQL                       |
+| CoffeeScript           | Nginx config             | Swift                     |
+| CSS                    | Objective-C              | TOML, also INI            |
+| Diff                   | Perl                     | Twig                      |
+| Go                     | PHP                      | TypeScript                |
+| HTML, XML              | PHP Template             | Visual Basic .NET         |
+| HTTP                   | Plain text               | YAML                      |
+| Java                   | Python                   |                           |
+| JavaScript             | Python REPL              |                           |
 
 # Updating
 
